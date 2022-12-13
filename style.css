@@ -1,6 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
 svg{
-    height: 30px;
-    width: 30px;
-    padding: 3px;
-    
+fill: rgb(19, 245, 233);
+width: 23px;
+width: 30px;
+padding: auto;
+margin: 2px;
+}
+
+nav{
+    padding: 10px;
+    border: 1px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 60px;
+    background-color: #333;
+}
+
+.box{
+    display: flex;
+    border: 1px rgb(5, 206, 241);
+
+justify-content: center;
+    margin: 3px 8px;
+    height: 50px;
+}
+
+.box .button{
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+    width: 50px;
+    padding: 7px 2px;
+    margin: 3px;
+    border-radius: 30px;
+    border: none;
+}
+
+.button:hover{
+    background-color: black;
+}
+
+#notificacao {
+    position: fixed;
+    border: 3.5px solid #333;
+    border-radius: 30px;
+    background-color: red;
+    display: flex;
+    margin: -10px 0 0 30px;
+    padding: 1px 4px;
 }
